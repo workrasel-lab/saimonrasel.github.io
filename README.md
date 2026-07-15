@@ -67,7 +67,7 @@ cd saimonrasel
 
 2. Verify Repository Structure
 Ensure your assets match the deployment directory tree layout:
-```Plaintext
+```Tree
 ├── .github/workflows/   # CI/CD deployment workflows
 ├── assets/              # Developer avatar, profile icons, download targets
 ├── error-404-assets/    # Specific design elements for standard error modules
