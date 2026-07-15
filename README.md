@@ -20,14 +20,14 @@ The platform features a modern, clean, fully responsive layout with an optional 
 > A comprehensive, side-by-side split screen optimizing spatial distribution for large monitors.
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1ikYj6jYqoOdFjUbHXnTZIviQ4R8CRKyc/view?usp=drive_link" width="100%" alt="Desktop Interface Preview"/>
+  <img src="/Desktop Resume View.png" width="100%" alt="Desktop Interface Preview"/>
 </p>
 
 ### Mobile Experience
 > A stacked, single-column viewport layout designed for effortless vertical scrolling on mobile devices.
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1mC5qxFJEFgXZ7ZKDbfHIaK5ERT--LxoH/view?usp=drive_link" width="40%" alt="Mobile Interface Preview"/>
+  <img src="Mobile Resume View.png" width="40%" alt="Mobile Interface Preview"/>
 </p>
 
 ---
@@ -64,7 +64,7 @@ To run this project locally for editing or testing, follow these structured depl
 ```bash
 git clone [https://github.com/workrasel-lab/saimonrasel.git](https://github.com/workrasel-lab/saimonrasel.git)
 cd saimonrasel
-
+```
 2. Verify Repository Structure
 Ensure your assets match the deployment directory tree layout:
 ```Tree
@@ -73,18 +73,18 @@ Ensure your assets match the deployment directory tree layout:
 ├── error-404-assets/    # Specific design elements for standard error modules
 ├── index.html           # Main structural entry hub
 └── index.php            # Optional server deployment script
-
+```
 3. Launch a local web server
 Run a simple server script from your terminal to preview changes in real-time:
 
 Using Python 3:
 ```Bash
 python -m http.server 8000
-
+```
 Using Node.js (Live Server):
 ```Bash
 npx live-server
-
+```
 Open your browser and navigate directly to http://localhost:8000 or the indicated port.
 
 👥 Contributors & Main Credits
